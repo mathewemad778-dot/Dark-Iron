@@ -1,49 +1,50 @@
-# Dark-Iron
- Dark Iron Gym Website
+# Dark Iron
 
-This project is a simple but clean gym website built using only HTML and CSS.
-The idea was to create something that looks modern and professional without relying on any frameworks.
+Dark Iron is a simple gym website built using only HTML and CSS.
+The goal wasn’t to overcomplicate things, but to create something clean, modern, and actually usable without relying on any frameworks.
 
-I focused mainly on layout, structure, and making the design feel like a real gym brand with a strong dark theme.
+I tried to focus more on the structure and overall feel of the website, making it look like a real gym brand with a strong and bold identity.
 
- What’s inside
+## What’s inside
 
-The website includes:
+The website includes all the basic sections you’d expect:
 
-A navigation bar with smooth section links
-A hero section with a strong fitness vibe
-About section explaining the gym
-Programs section with different training options
-Opening hours displayed in a clean table
-Pricing plans for memberships
-Contact form
-Footer with basic info
+* A navigation bar with links to different sections
+* A hero section with a strong fitness-style headline
+* An about section that gives a quick idea about the gym
+* A programs section showing different training options
+* Opening hours displayed in a simple table
+* Pricing plans for memberships
+* A contact form
+* A footer with general info
 
- Design approach
+## Design approach
 
-I went with a dark theme to match the gym atmosphere.
-Used simple colors like black, gray, and an accent orange to make important elements stand out.
+I went with a dark theme because it fits the gym vibe better.
+Most of the colors are black and gray, with orange used as an accent to highlight important parts.
 
-Tried to keep everything clean and readable without overcomplicating the design.
+The main idea was to keep everything clean and easy to read without adding unnecessary complexity.
 
- Responsiveness
+## Responsiveness
 
-The layout adjusts for smaller screens using basic media queries.
-It’s not perfect, but it works well for most screen sizes.
+The layout works on smaller screens using basic media queries.
+It’s not fully optimized for every device yet, but it handles most screen sizes pretty well.
 
- What I learned
-Structuring a full landing page from scratch
-Organizing CSS into sections instead of random code
-Improving UI using simple effects like hover and spacing
-Thinking more about user experience, not just code
+## What I learned
 
- Future improvements
-Add JavaScript for interactivity
-Improve animations and transitions
-Connect the contact form to a backend
-Add login or booking system
+* How to build a full landing page from scratch
+* Writing more organized CSS instead of random styles
+* Improving the UI using simple things like spacing and hover effects
+* Thinking about the user experience, not just the code
 
- Notes
+## Future improvements
 
-This project is part of my learning journey, so there’s always room for improvement.
-But overall, it represents a solid step toward building real-world websites.
+* Add JavaScript for better interactivity
+* Improve animations and transitions
+* Connect the contact form to a backend
+* Possibly add a login or booking system
+
+## Notes
+
+This project is part of my learning journey, so it’s not perfect.
+But it’s a solid step forward and something I can build on in future projects.

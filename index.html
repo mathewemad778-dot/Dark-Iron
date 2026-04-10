@@ -1,76 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dark Iron Gym</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Iron Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <body>
-        <!-- Navbar -->
-        <header>
-            <h1>DARK IRON</h1>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#programs">Programs</a>
-                <a href="#hours">Hours</a>
-                <a href="#pricing">Pricing</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+<body>
 
-        <!-- Hero -->
-        <section id="home" class="hero">
-            <div class="overlay"></div>
-            <div class="hero-content">
-                <h2>BUILD YOUR BODY</h2>
-                <p>Train hard. Stay strong. Be unstoppable.</p>
-                <a href="#programs" class="btn">Explore Programs</a>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1>DARK IRON</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#hours">Hours</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h2>BUILD YOUR BODY</h2>
+            <p>Train hard. Stay strong. Be unstoppable.</p>
+            <a href="#programs" class="btn">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            Dark Iron Gym is built for people who want real results.
+            We provide professional equipment, experienced trainers,
+            and the right environment to push your limits.
+        </p>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs" class="programs">
+        <h2>Our Programs</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💪 Bodybuilding</h3>
+                <p>Build serious muscle with structured training plans.</p>
             </div>
-        </section>
 
-        <!-- About -->
-        <section id="about" class="about">
-            <h2>About Us</h2>
-            <p>
-                Dark Iron Gym is built for those who want real results.
-                We provide professional equipment, expert trainers,
-                and a powerful environment to push your limits.
-            </p>
-        </section>
-
-        <!-- Programs -->
-        <section id="programs" class="programs">
-            <h2>Our Programs</h2>
-            <div class="cards">
-
-                <div class="card">
-                    <h3>💪 Bodybuilding</h3>
-                    <p>Build serious muscle with advanced training plans.</p>
-                </div>
-
-                <div class="card">
-                    <h3>🔥 Fat Loss</h3>
-                    <p>Burn fat fast with high intensity workouts.</p>
-                </div>
-
-                <div class="card">
-                    <h3>⚡ CrossFit</h3>
-                    <p>Functional training for strength and endurance.</p>
-                </div>
-
+            <div class="card">
+                <h3>🔥 Fat Loss</h3>
+                <p>Burn fat efficiently with high intensity workouts.</p>
             </div>
-        </section>
 
-        <!-- Opening Hours -->
-        <table class="schedule" id="hours">
+            <div class="card">
+                <h3>⚡ CrossFit</h3>
+                <p>Improve strength and endurance with functional training.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Hours -->
+    <section id="hours">
+        <h2>Opening Hours</h2>
+
+        <table class="schedule">
             <thead>
                 <tr>
                     <th>Day</th>
-                    <th>Opening Time</th>
-                    <th>Closing Time</th>
+                    <th>Open</th>
+                    <th>Close</th>
                 </tr>
             </thead>
 
@@ -100,72 +105,73 @@
                 </tr>
             </tbody>
         </table>
+    </section>
 
-        <!-- Address -->
-        <section class="address">
-            <h2>Our Location</h2>
-            <p>Cairo, Egypt - Main Street, Next to City Mall</p>
-        </section>
+    <!-- Location -->
+    <section class="address">
+        <h2>Our Location</h2>
+        <p>Cairo, Egypt - Main Street, next to City Mall</p>
+    </section>
 
-        <!-- Pricing -->
-        <section id="pricing" class="pricing">
-            <h2>Membership Plans</h2>
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+        <h2>Membership Plans</h2>
 
-            <div class="pricing-card">
+        <div class="pricing-card">
 
-                <div class="price-card">
-                    <h3>Basic</h3>
-                    <h1>$10</h1>
-                    <p>/month</p>
-                    <ul>
-                        <li>Access to gym</li>
-                        <li>1 Trainer Session</li>
-                        <li>Locker Room</li>
-                    </ul>
-                </div>
-
-                <div class="price-card">
-                    <h3>Pro</h3>
-                    <h1>$25</h1>
-                    <p>/month</p>
-                    <ul>
-                        <li>All Basic Features</li>
-                        <li>5 Trainer Sessions</li>
-                        <li>Diet Plan</li>
-                    </ul>
-                </div>
-
-                <div class="price-card">
-                    <h3>Elite</h3>
-                    <h1>$50</h1>
-                    <p>/month</p>
-                    <ul>
-                        <li>All Pro Features</li>
-                        <li>Unlimited Coaching</li>
-                        <li>Private Room</li>
-                    </ul>
-                </div>
-
+            <div class="price-card">
+                <h3>Basic</h3>
+                <h1>$10</h1>
+                <p>/month</p>
+                <ul>
+                    <li>Gym access</li>
+                    <li>1 trainer session</li>
+                    <li>Locker room</li>
+                </ul>
             </div>
-        </section>
 
-        <!-- Contact -->
-        <section id="contact" class="contact">
-            <h2>Contact US</h2>
+            <div class="price-card">
+                <h3>Pro</h3>
+                <h1>$25</h1>
+                <p>/month</p>
+                <ul>
+                    <li>All basic features</li>
+                    <li>5 trainer sessions</li>
+                    <li>Diet plan</li>
+                </ul>
+            </div>
 
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
+            <div class="price-card">
+                <h3>Elite</h3>
+                <h1>$50</h1>
+                <p>/month</p>
+                <ul>
+                    <li>All pro features</li>
+                    <li>Unlimited coaching</li>
+                    <li>Private room</li>
+                </ul>
+            </div>
 
-        </section>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer>
-            <p>Made with ❤️ by Dark Iron Gym</p>
-            <p>&copy; 2026 Dark Iron Gym. All rights reserved.</p>
-        </footer>
-    </body>
-</html>  
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ by Dark Iron Gym</p>
+        <p>&copy; 2026 Dark Iron Gym. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
